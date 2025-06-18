@@ -1,3 +1,4 @@
+
 {
   "version": 2,
   "routes": [
@@ -5,9 +6,9 @@
       "src": "/api/(.*)",
       "methods": ["GET", "POST", "OPTIONS"],
       "headers": {
-        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Origin": "https://www.sthevamefelipe.com.br",
         "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-        "Access-Control-Allow-Headers": "*"
+        "Access-Control-Allow-Headers": "Content-Type"
       },
       "dest": "/api/$1"
     }
